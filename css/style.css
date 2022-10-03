@@ -13,7 +13,8 @@
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
+    padding-bottom: 1rem;
 }
 h2{
     font-size: 2rem;
@@ -26,6 +27,9 @@ header nav{
     padding: 1rem;
     height: 50px;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
 li{
@@ -45,8 +49,12 @@ li a{
 }
 
 .logo{
-    height: 110%;
+    height: 100%;
     align-self: center;
+}
+
+.padding-bottom1rem{
+    padding-bottom: 1rem;
 }
 
 button{
@@ -57,20 +65,31 @@ button{
     align-self: center;
 }
 
-.container1200{
-    max-width: 1200px;
-    margin: auto;
+.sub-text-header{
+    padding-top: 1rem;
+    padding-bottom: 35%;
 }
+.down-arrow{
+    font-size: 2rem;
+}
+.container1000{
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
 .container30{
 width: 30%;
 }
 .container70{
     width: 70%;
 }
-.img60{
+header .img70{
     width: 100%;
 }
 
 .bg-color-blue{
     background-color: var(--bg-color-blue);
+    padding-top: calc(50px + .5rem);
 }
