@@ -168,3 +168,19 @@ header .img70{
     justify-content: space-between;
     
 }
+
+.container-partner{
+    padding: 5rem 0;
+}
+
+.container-img-60{
+    width: 60%;
+}
+
+.container-text-40{
+    width: 40%;
+    padding: 4rem;
+}
+.container-img-60 img{
+ width: 100%;
+}
