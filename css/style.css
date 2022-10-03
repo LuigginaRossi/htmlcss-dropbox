@@ -102,9 +102,7 @@ width: 30%;
 .container70{
     width: 70%;
 }
-header .img70{
-    width: 100%;
-}
+
 
 .bg-color-blue{
     background-color: var(--bg-color-blue);
@@ -127,9 +125,9 @@ header .img70{
     width: 30%;
 }
 
-.container-main-card{
+/* .container-main-card{
     padding: 1rem 1.5rem;
-}
+} */
 
 .link-main-card{
     padding: 1rem 0;
@@ -164,7 +162,7 @@ header .img70{
     padding-top: 0;
 }
 
-.main-horizontal-card{
+.main-horizontal-card,{
     justify-content: space-between;
     
 }
@@ -181,6 +179,17 @@ header .img70{
     width: 40%;
     padding: 4rem;
 }
-.container-img-60 img{
+img{
  width: 100%;
+}
+
+.container-cards .card{
+    padding: 1rem 1.5rem;
+}
+.container-cards.operations .card{
+    border: none;
+}
+.container-cards.operations{
+    flex-wrap: wrap;
+    
 }
