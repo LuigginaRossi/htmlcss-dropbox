@@ -276,11 +276,17 @@ img{
     background-color: #0d2481;
 }
 
-.select-options{
+.questions-container{
+    border: 1px solid grey;
     border-left: none;
     border-right: none;
     padding: 1rem 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-chevron-down{
+    padding: 0 3rem;
 }
 footer, footer a{
     background-color: black;
@@ -302,4 +308,8 @@ footer .container1000{
 }
 .container-second-footer{
     align-items: center;
+}
+footer li a{
+    margin: 0;
+    padding: 0;
 }
