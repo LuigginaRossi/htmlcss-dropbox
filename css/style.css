@@ -89,13 +89,14 @@ li a{
     align-self: center;
 }
 
-button{
+button {
     background-color: var(--button-bg-blue);
     border: none;
     color: white;
     padding: 0.5rem;    
     align-self: center;
 }
+
 p{
     padding-bottom: 1rem;
 }
@@ -231,10 +232,15 @@ img{
     object-fit: contain;
     aspect-ratio: 1/1;
 }
-.imgcenter{
+/*  */
+.container-img-square img{
     width: 50%;
     padding-bottom: 2rem;
 }
+/* .imgcenter{
+    width: 50%;
+    padding-bottom: 2rem;
+} */
 
 .square-cards-container .container-center{
     padding: 2rem;
