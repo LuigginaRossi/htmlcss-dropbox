@@ -34,6 +34,7 @@ h5{
     font-size: 1.3rem;
     padding-bottom: 0.5rem;
 }
+/* spacifino nel main? */
 section{
     padding: 3rem 0;
 }
@@ -46,7 +47,7 @@ header nav{
     /* position: fixed; */
     background-color: white;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
 }
 .nav-bar{
     display: flex;
@@ -210,10 +211,10 @@ img{
 
 .members-container{
     flex-wrap: wrap;
-    height: 600px;
+    height: 602px;
 }
 
-.members-container .container-sx,.container-dx,.container-center{
+.square-cards-container .container-sx,.container-dx,.container-center{
     width: 33.3333%;
     flex-wrap: wrap;
 }
@@ -230,7 +231,7 @@ img{
     padding-bottom: 2rem;
 }
 
-.members-container .container-center{
+.square-cards-container .container-center{
     padding: 2rem;
 }
 
