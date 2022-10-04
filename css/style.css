@@ -11,6 +11,8 @@
     --bg-color-blue:#b4d0e7;
     --button-bg-blue: #0053d9;
     --tertiary-color: #5e032a;
+    --padding-sections: 3rem 0;
+    --padding-bottom-p: 0 0 0 1rem;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -114,6 +116,8 @@ p{
 .container1000{
     max-width: 1000px;
     margin: auto;
+}
+.container1000.position-relative{
     position: relative;
     top: 50px;
 }
@@ -162,7 +166,7 @@ width: 30%;
 .gray-line{
     border-bottom: 1px solid lightgray;
     width: 30%;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 
 .container-main-card li{
@@ -280,4 +284,26 @@ img{
     border-right: none;
     padding: 1rem 0;
     width: 100%;
+}
+footer, footer a{
+    background-color: black;
+    color: white;  
+    
+}    
+
+.container-list-footer{
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+footer .container1000{
+    padding: var(--padding-sections);
+}
+.language{
+    color: grey;
+    background-color: black;
+    border: none;
+}
+.container-second-footer{
+    align-items: center;
 }
