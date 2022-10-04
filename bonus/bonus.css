@@ -95,6 +95,7 @@ button {
     color: white;
     padding: 0.5rem;    
     align-self: center;
+    margin-bottom: .5rem;
 }
 
 p{
@@ -207,6 +208,9 @@ width: 30%;
 img{
  width: 100%;
 }
+.margin-sx{
+    margin-left: 1rem;
+}
 
 .container-cards.operations .card{
     border: none;
@@ -226,7 +230,9 @@ img{
 
 .square-cards-container .container-dx,.square-cards-container .container-sx{
     flex-wrap: wrap;
+    
 }
+
 
 .img50{
     width: 50%;
@@ -236,7 +242,9 @@ img{
     filter: invert(1);
 
 }
-
+.square-cards-container{
+    padding-bottom: 0;
+}
 .container-img-square{
     width: 50%;
     aspect-ratio: 1/1;

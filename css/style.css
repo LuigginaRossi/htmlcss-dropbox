@@ -5,6 +5,9 @@
     /* border: 1px dashed lightseagreen; */
 }
 
+nav button{
+    margin: 0;
+}
 :root{
     --bg-color-blue:#b4d0e7;
     --button-bg-blue: #0061ff;
@@ -77,6 +80,10 @@ li a{
     text-decoration: none;
     color: black;
     padding: .5rem;
+}
+
+.margin-sx{
+    margin-left: 1rem;
 }
 
 .flex{
@@ -219,7 +226,7 @@ img{
     margin: auto;
 }
 
-.square-cards-container .container-center,.container-sx,.container-dx{
+.square-cards-container .container-center,.square-cards-container .container-sx,.square-cards-container .container-dx{
     width: 33.3333%;
     aspect-ratio: 1/1;
 }
@@ -290,9 +297,6 @@ img{
     background-color: lightgray;
 }
 
-.questions-container:active{
-    
-}
 
 .fa-chevron-down{
     padding: 0 3rem;
