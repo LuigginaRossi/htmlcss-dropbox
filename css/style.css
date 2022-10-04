@@ -10,6 +10,10 @@
 :root{
     --bg-color-blue:#b4d0e7;
     --button-bg-blue: #0053d9;
+    --tertiary-color: #5e032a;
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -33,6 +37,9 @@ h4{
 h5{
     font-size: 1.3rem;
     padding-bottom: 0.5rem;
+}
+.container70 h2{
+    color: var(--tertiary-color);
 }
 /* spacifino nel main? */
 section{
@@ -111,11 +118,11 @@ p{
     top: 50px;
 }
 
-header .container30{
+.container30{
 width: 30%;
 }
 
-header .container70{
+.container70{
     width: 70%;
 }
 
@@ -182,15 +189,23 @@ header .container70{
     text-align: right;
 }
 
-.container-img-60{
+.container-60{
     width: 60%;
 }
 
-.container-text-40{
+.container-40{
     width: 40%;
     padding: 4rem;
 }
-
+.white-button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.white-button.border-none{
+    border: none;
+    text-align: end;
+}
 img{
  width: 100%;
 }
@@ -209,10 +224,10 @@ img{
     margin: auto;
 }
 
-.members-container{
+/* .members-container{
     flex-wrap: wrap;
     height: 602px;
-}
+} */
 
 .square-cards-container .container-sx,.container-dx,.container-center{
     width: 33.3333%;
@@ -258,4 +273,11 @@ img{
 }
 .img50.dark-blue{
     background-color: #0d2481;
+}
+
+.select-options{
+    border-left: none;
+    border-right: none;
+    padding: 1rem 0;
+    width: 100%;
 }
