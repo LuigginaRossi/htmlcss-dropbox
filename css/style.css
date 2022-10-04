@@ -5,15 +5,13 @@
     /* border: 1px dashed lightseagreen; */
 }
 
-
-
 :root{
     --bg-color-blue:#b4d0e7;
     --button-bg-blue: #0053d9;
     --tertiary-color: #5e032a;
     --padding-sections: 3rem 0;
-    --padding-bottom-p: 0 0 0 1rem;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -43,29 +41,24 @@ h5{
 .container70 h2{
     color: var(--tertiary-color);
 }
-/* spacifino nel main? */
+
 section{
-    padding: 3rem 0;
+    padding: var(--padding-sections)
 }
 
 header nav{
     padding: 1rem;
     height: 50px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     background-color: white;
     width: 100%;
     z-index: 10;
-}
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
     top: 0;
-    right: 0;
     left: 0;
 }
+
 nav button{
     margin-bottom: 0;
 }
@@ -214,9 +207,6 @@ img{
  width: 100%;
 }
 
-/* .container-cards .card{
-    padding: 1rem 1.5rem;
-} */
 .container-cards.operations .card{
     border: none;
 }
@@ -228,11 +218,6 @@ img{
     margin: auto;
 }
 
-/* .members-container{
-    flex-wrap: wrap;
-    height: 602px;
-} */
-
 .square-cards-container .container-sx,.container-dx,.container-center{
     width: 33.3333%;
     flex-wrap: wrap;
@@ -241,7 +226,6 @@ img{
 
 .img50{
     width: 50%;
-    /* height: 50%; */
     display: block;
     padding: 2rem;
     object-fit: contain;
