@@ -280,11 +280,20 @@ img{
     border: 1px solid grey;
     border-left: none;
     border-right: none;
-    padding: 1rem 0;
+    padding: 2rem 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    transform: background-color 2s ease .3s;
 }
+.questions-container:hover{
+    background-color: lightgray;
+}
+
+.questions-container:active{
+    
+}
+
 .fa-chevron-down{
     padding: 0 3rem;
 }
