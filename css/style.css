@@ -230,7 +230,9 @@ img{
     width: 33.3333%;
     aspect-ratio: 1/1;
 }
-
+.square-cards-container{
+    padding-bottom: 0;
+}
 .square-cards-container .container-dx,.square-cards-container .container-sx{
     flex-wrap: wrap;
 }

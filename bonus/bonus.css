@@ -223,7 +223,7 @@ img{
     margin: auto;
 }
 
-.square-cards-container .container-center,.container-sx,.container-dx{
+.square-cards-container .container-center,.square-cards-container .container-sx,.square-cards-container .container-dx{
     width: 33.3333%;
     aspect-ratio: 1/1;
 }
