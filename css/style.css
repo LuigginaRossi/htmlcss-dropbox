@@ -102,13 +102,14 @@ button {
     color: white;
     padding: 0.5rem;    
     align-self: center;
+    margin-bottom: .5rem;
 }
 
 p{
     padding-bottom: 1rem;
 }
 .padding-bottom-arrow{
-    padding-bottom: 30%;
+    padding-bottom: 3vh;
 }
 .down-arrow{
     font-size: 2rem;
