@@ -103,6 +103,7 @@ button {
     padding: 0.5rem;    
     align-self: center;
     margin-bottom: .5rem;
+    cursor: pointer;
 }
 
 p{
