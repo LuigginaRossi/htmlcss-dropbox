@@ -111,8 +111,20 @@ p{
 .padding-bottom-arrow{
     padding-bottom: 3vh;
 }
-.down-arrow{
+.fa-arrow-down{
     font-size: 2rem;
+    color: black;
+    background-color: transparent;
+    padding: .3rem .5rem;
+    text-align: center;
+    line-height: middle;
+    transition: transform 2s ease;
+}
+
+.fa-arrow-down:hover{
+    transform: scale(1.5);
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
 }
 
 .container1000{
